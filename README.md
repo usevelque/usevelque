@@ -12,3 +12,13 @@ Nasdaq prices a stock for 32.5 hours a week. Tokenized stocks trade all 168. For
 | Dark | Nights, weekends, holidays | Orders collect in short windows and clear together at one price |
 | Opening cross | The moment Nasdaq is back | Everything that waited clears at once, then the Day book takes over |
 
+## Repositories
+
+| | |
+| --- | --- |
+| [velque-program](https://github.com/usevelque/velque-program) | The Solana program. Pinocchio, `no_std`, SPL Token and Token-2022 |
+| [velque-sdk](https://github.com/usevelque/velque-sdk) | JavaScript client, the clearing rule in JS, the reference price |
+| [auction-replay](https://github.com/usevelque/auction-replay) | Recompute any auction from the orders stored on chain |
+| [velque-keeper](https://github.com/usevelque/velque-keeper) | The crank, the Nasdaq reference oracle, the test-market maker |
+| [velque-app](https://github.com/usevelque/velque-app) | The web app |
+
