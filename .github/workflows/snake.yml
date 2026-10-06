@@ -1,0 +1,36 @@
+name: snake
+
+on:
+  schedule:
+    - cron: '41 3 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: generate
+        uses: Platane/snk@v3
+        with:
+          github_user_name: usevelque
+          outputs: |
+            dist/snake-light.svg?palette=github-light&color_snake=#2a1228&color_dots=#f4eef1,#fbd0dd,#f8aec6,#f58aae,#d6577f
+            dist/snake-dark.svg?palette=github-dark&color_snake=#7fd9c4&color_dots=#1b1420,#5a2a45,#9c4a6f,#d86c95,#f58aae
+
+      - name: publish
+        run: |
+          # the generator runs in a container as root, so the runner cannot write inside dist
+          sudo chown -R "$(id -u):$(id -g)" dist
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Contribution snake, $(date -u +'%Y-%m-%d')"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output

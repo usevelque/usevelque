@@ -34,4 +34,9 @@ Every cleared auction stays on chain with its orders, so anyone can replay it an
 | **[velque-app](https://github.com/usevelque/velque-app)** | The web app |
 | **[market-log](https://github.com/usevelque/market-log)** | Snapshots of the test market, with every stored auction replayed |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usevelque/usevelque/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/usevelque/usevelque/output/snake-light.svg" alt="Contribution graph" width="100%">
+</picture>
+
 <sub>The test market runs all three sessions with three test stocks on Solana devnet. In development, not audited.</sub>
