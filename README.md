@@ -11,6 +11,13 @@
   <a href="https://github.com/usevelque/velque-program"><img src="https://img.shields.io/badge/solana-devnet-f58aae?style=flat-square&labelColor=2a1228" alt="Solana devnet"></a>
 </p>
 
+<a href="https://usevelque.xyz/app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usevelque/usevelque/output/board-dark.svg">
+    <img src="https://raw.githubusercontent.com/usevelque/usevelque/output/board-light.svg" alt="The Velque test market right now, read from Solana devnet" width="100%">
+  </picture>
+</a>
+
 Nasdaq prices a stock for 32.5 hours a week. Tokenized stocks trade all 168. For the other 135 hours there is no exchange price to check a trade against, and every order walks a thin pool alone. Velque changes how trading works in those hours instead of inventing a price for them.
 
 | Session | When | How it trades |
