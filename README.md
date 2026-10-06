@@ -22,3 +22,12 @@ Nasdaq prices a stock for 32.5 hours a week. Tokenized stocks trade all 168. For
 | [velque-keeper](https://github.com/usevelque/velque-keeper) | The crank, the Nasdaq reference oracle, the test-market maker |
 | [velque-app](https://github.com/usevelque/velque-app) | The web app |
 
+## Try it
+
+The test market runs all three sessions with three test stocks.
+
+- App: [usevelque.xyz/app](https://usevelque.xyz/app)
+- Docs: [usevelque.xyz/docs](https://usevelque.xyz/docs)
+- X: [@usevelque](https://x.com/usevelque)
+
+Velque is in development and has not been audited.
