@@ -5,13 +5,13 @@
 <p align="center">The order book for tokenized stocks on Solana.</p>
 
 <p align="center">
-  <a href="https://usevelque.xyz/app"><img src="https://img.shields.io/badge/app-usevelque.xyz-2a1228?style=flat-square" alt="App"></a>
+  <a href="https://usevelque.xyz"><img src="https://img.shields.io/badge/site-usevelque.xyz-2a1228?style=flat-square" alt="Site"></a>
   <a href="https://usevelque.xyz/docs"><img src="https://img.shields.io/badge/docs-read-2a1228?style=flat-square" alt="Docs"></a>
   <a href="https://x.com/usevelque"><img src="https://img.shields.io/badge/@usevelque-2a1228?style=flat-square&logo=x&logoColor=white" alt="X"></a>
   <a href="https://github.com/usevelque/velque-program"><img src="https://img.shields.io/badge/solana-devnet-f58aae?style=flat-square&labelColor=2a1228" alt="Solana devnet"></a>
 </p>
 
-<a href="https://usevelque.xyz/app">
+<a href="https://github.com/usevelque/market-log">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usevelque/usevelque/output/board-dark.svg">
     <img src="https://raw.githubusercontent.com/usevelque/usevelque/output/board-light.svg" alt="The Velque test market right now, read from Solana devnet" width="100%">
@@ -28,7 +28,7 @@ Nasdaq prices a stock for 32.5 hours a week. Tokenized stocks trade all 168. For
 
 Every cleared auction stays on chain with its orders, so anyone can replay it and get the same price.
 
-**[Open the app](https://usevelque.xyz/app)** · [Site](https://usevelque.xyz) · [Docs](https://usevelque.xyz/docs) · [X](https://x.com/usevelque)
+**[Read the docs](https://usevelque.xyz/docs)** · [Site](https://usevelque.xyz) · [X](https://x.com/usevelque)
 
 ### Repositories
 
