@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-label="Velque test market, read from Solana devnet">
+  <defs>
+    <linearGradient id="fade-dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f58aae" stop-opacity=".22"/><stop offset="1" stop-color="#f58aae" stop-opacity="0"/></linearGradient>
+    <linearGradient id="sweep-dark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f58aae" stop-opacity="0"/><stop offset=".5" stop-color="#f58aae"/><stop offset="1" stop-color="#f58aae" stop-opacity="0"/></linearGradient>
+    <clipPath id="card-dark"><rect x="1" y="1" width="878" height="328" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .in{opacity:0;animation:in .8s ease-out forwards}
+    .spark{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 10s ease-in-out infinite}
+    .area{opacity:0;animation:area 10s ease-in-out infinite}
+    .tip{opacity:0;animation:tip 10s ease-in-out infinite}
+    @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    @keyframes draw{0%{stroke-dashoffset:1;opacity:1}26%{stroke-dashoffset:0}92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+    @keyframes area{0%,18%{opacity:0}32%,92%{opacity:1}100%{opacity:0}}
+    @keyframes tip{0%,24%{opacity:0}28%,92%{opacity:1}100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.in,.spark,.area,.tip{animation:none;opacity:1;stroke-dashoffset:0}}
+  </style>
+  <rect x="1" y="1" width="878" height="328" rx="20" fill="#1b1420" stroke="#3a2836" stroke-width="1.5"/>
+  <g clip-path="url(#card-dark)">
+    <line x1="0" y1="78" x2="880" y2="78" stroke="#2e2030"/>
+    <rect y="77" width="170" height="2" fill="url(#sweep-dark)"><animate attributeName="x" values="-170;880" dur="5.5s" repeatCount="indefinite"/></rect>
+    <line x1="0" y1="286" x2="880" y2="286" stroke="#2e2030"/>
+  </g>
+  <rect x="28" y="25" width="76" height="30" rx="15" fill="#f58aae"/>
+  <circle cx="44" cy="40" r="4" fill="#2a1228"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="55" y="44.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#2a1228">DARK</text>
+  <text x="118" y="45" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#fbeef4">Nasdaq is closed. Orders collect and clear together at one price.</text>
+  <text x="852" y="45" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#9a8494">opens Tue 13:30 UTC</text>
+  
+  
+  <g class="in" style="animation-delay:0.25s">
+    <text x="28.0" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4" fill="#9a8494">tNVDAx</text>
+    <text x="280.7" y="114" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#9a8494">NVDA on Nasdaq, 5 sessions</text>
+    <text x="28.0" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#fbeef4">$221.48</text>
+    <text x="280.7" y="151" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#f58aae">-3.71%</text>
+    <text x="28.0" y="246" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#d9c7d3">4 orders waiting in window #6429</text>
+    <text x="28.0" y="266" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9a8494">clears every 2 min at one price</text>
+  </g>
+  <path class="area" style="animation-delay:0.25s" d="M28.0 181.3 L31.9 180.7 L35.8 182.0 L39.7 183.8 L43.5 179.8 L47.4 176.8 L51.3 177.2 L55.2 176.9 L59.1 176.2 L63.0 174.9 L66.9 175.4 L70.8 174.4 L74.6 172.0 L78.5 184.4 L82.4 185.5 L86.3 184.8 L90.2 188.8 L94.1 190.0 L98.0 193.0 L101.9 189.7 L105.7 193.5 L109.6 195.6 L113.5 195.6 L117.4 196.9 L121.3 194.4 L125.2 193.2 L129.1 215.5 L133.0 209.4 L136.8 206.6 L140.7 207.4 L144.6 204.5 L148.5 208.8 L152.4 205.6 L156.3 205.6 L160.2 203.5 L164.1 206.4 L167.9 204.9 L171.8 204.6 L175.7 206.0 L179.6 209.0 L183.5 204.9 L187.4 204.8 L191.3 208.2 L195.1 205.9 L199.0 204.8 L202.9 208.8 L206.8 211.0 L210.7 212.1 L214.6 214.7 L218.5 216.0 L222.4 212.1 L226.2 215.3 L230.1 211.1 L234.0 204.1 L237.9 204.9 L241.8 202.1 L245.7 199.6 L249.6 202.8 L253.5 203.7 L257.3 204.1 L261.2 205.0 L265.1 206.3 L269.0 206.1 L272.9 203.8 L276.8 206.4 L280.7 206.4 L280.7 222 L28.0 222 Z" fill="url(#fade-dark)"/>
+  <path class="spark" style="animation-delay:0.25s" pathLength="1" d="M28.0 181.3 L31.9 180.7 L35.8 182.0 L39.7 183.8 L43.5 179.8 L47.4 176.8 L51.3 177.2 L55.2 176.9 L59.1 176.2 L63.0 174.9 L66.9 175.4 L70.8 174.4 L74.6 172.0 L78.5 184.4 L82.4 185.5 L86.3 184.8 L90.2 188.8 L94.1 190.0 L98.0 193.0 L101.9 189.7 L105.7 193.5 L109.6 195.6 L113.5 195.6 L117.4 196.9 L121.3 194.4 L125.2 193.2 L129.1 215.5 L133.0 209.4 L136.8 206.6 L140.7 207.4 L144.6 204.5 L148.5 208.8 L152.4 205.6 L156.3 205.6 L160.2 203.5 L164.1 206.4 L167.9 204.9 L171.8 204.6 L175.7 206.0 L179.6 209.0 L183.5 204.9 L187.4 204.8 L191.3 208.2 L195.1 205.9 L199.0 204.8 L202.9 208.8 L206.8 211.0 L210.7 212.1 L214.6 214.7 L218.5 216.0 L222.4 212.1 L226.2 215.3 L230.1 211.1 L234.0 204.1 L237.9 204.9 L241.8 202.1 L245.7 199.6 L249.6 202.8 L253.5 203.7 L257.3 204.1 L261.2 205.0 L265.1 206.3 L269.0 206.1 L272.9 203.8 L276.8 206.4 L280.7 206.4" fill="none" stroke="#f58aae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="tip" style="animation-delay:0.25s"><circle cx="280.7" cy="206.4" r="3.4" fill="#f58aae"/><circle cx="280.7" cy="206.4" r="3.4" fill="none" stroke="#f58aae"><animate attributeName="r" values="3.4;10" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="1.8s" repeatCount="indefinite"/></circle></g>
+  <line x1="302.7" y1="98" x2="302.7" y2="270" stroke="#2e2030"/>
+  <g class="in" style="animation-delay:0.60s">
+    <text x="324.7" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4" fill="#9a8494">tTSLAx</text>
+    <text x="555.3" y="114" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#9a8494">TSLA on Nasdaq, 5 sessions</text>
+    <text x="324.7" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#fbeef4">$366.67</text>
+    <text x="555.3" y="151" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#f58aae">-1.54%</text>
+    <text x="324.7" y="246" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#d9c7d3">6 orders waiting in window #6123</text>
+    <text x="324.7" y="266" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9a8494">clears every 2 min at one price</text>
+  </g>
+  <path class="area" style="animation-delay:0.60s" d="M324.7 177.0 L328.2 176.0 L331.8 174.6 L335.3 172.0 L338.9 173.4 L342.4 173.3 L346.0 173.8 L349.5 174.8 L353.1 175.2 L356.6 177.2 L360.2 177.0 L363.7 175.6 L367.3 174.6 L370.8 192.1 L374.3 187.3 L377.9 185.8 L381.4 188.3 L385.0 190.4 L388.5 192.1 L392.1 188.6 L395.6 189.2 L399.2 192.3 L402.7 193.0 L406.3 192.9 L409.8 190.9 L413.4 188.1 L416.9 207.6 L420.5 205.4 L424.0 198.0 L427.6 195.1 L431.1 196.4 L434.7 200.7 L438.2 199.9 L441.8 200.1 L445.3 198.1 L448.9 200.5 L452.4 198.3 L456.0 195.8 L459.5 196.1 L463.1 189.0 L466.6 192.8 L470.2 198.2 L473.7 203.2 L477.3 203.8 L480.8 205.7 L484.4 209.1 L487.9 212.2 L491.5 211.6 L495.0 214.3 L498.6 216.0 L502.1 214.1 L505.7 209.5 L509.2 197.2 L512.7 190.5 L516.3 189.3 L519.8 186.6 L523.4 186.2 L526.9 186.7 L530.5 184.9 L534.0 187.1 L537.6 187.2 L541.1 188.8 L544.7 185.6 L548.2 186.4 L551.8 186.7 L555.3 186.8 L555.3 222 L324.7 222 Z" fill="url(#fade-dark)"/>
+  <path class="spark" style="animation-delay:0.60s" pathLength="1" d="M324.7 177.0 L328.2 176.0 L331.8 174.6 L335.3 172.0 L338.9 173.4 L342.4 173.3 L346.0 173.8 L349.5 174.8 L353.1 175.2 L356.6 177.2 L360.2 177.0 L363.7 175.6 L367.3 174.6 L370.8 192.1 L374.3 187.3 L377.9 185.8 L381.4 188.3 L385.0 190.4 L388.5 192.1 L392.1 188.6 L395.6 189.2 L399.2 192.3 L402.7 193.0 L406.3 192.9 L409.8 190.9 L413.4 188.1 L416.9 207.6 L420.5 205.4 L424.0 198.0 L427.6 195.1 L431.1 196.4 L434.7 200.7 L438.2 199.9 L441.8 200.1 L445.3 198.1 L448.9 200.5 L452.4 198.3 L456.0 195.8 L459.5 196.1 L463.1 189.0 L466.6 192.8 L470.2 198.2 L473.7 203.2 L477.3 203.8 L480.8 205.7 L484.4 209.1 L487.9 212.2 L491.5 211.6 L495.0 214.3 L498.6 216.0 L502.1 214.1 L505.7 209.5 L509.2 197.2 L512.7 190.5 L516.3 189.3 L519.8 186.6 L523.4 186.2 L526.9 186.7 L530.5 184.9 L534.0 187.1 L537.6 187.2 L541.1 188.8 L544.7 185.6 L548.2 186.4 L551.8 186.7 L555.3 186.8" fill="none" stroke="#f58aae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="tip" style="animation-delay:0.60s"><circle cx="555.3" cy="186.8" r="3.4" fill="#f58aae"/><circle cx="555.3" cy="186.8" r="3.4" fill="none" stroke="#f58aae"><animate attributeName="r" values="3.4;10" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="1.8s" repeatCount="indefinite"/></circle></g>
+  <line x1="577.3" y1="98" x2="577.3" y2="270" stroke="#2e2030"/>
+  <g class="in" style="animation-delay:0.95s">
+    <text x="599.3" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4" fill="#9a8494">tAAPLx</text>
+    <text x="852.0" y="114" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#9a8494">AAPL on Nasdaq, 5 sessions</text>
+    <text x="599.3" y="152" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#fbeef4">$343.47</text>
+    <text x="852.0" y="151" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#f58aae">-0.66%</text>
+    <text x="599.3" y="246" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#d9c7d3">4 orders waiting in window #6267</text>
+    <text x="599.3" y="266" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9a8494">clears every 2 min at one price</text>
+  </g>
+  <path class="area" style="animation-delay:0.95s" d="M599.3 183.4 L603.2 172.0 L607.1 178.1 L611.0 184.0 L614.9 190.1 L618.8 191.6 L622.7 198.1 L626.5 195.0 L630.4 205.9 L634.3 205.0 L638.2 208.5 L642.1 212.6 L646.0 215.7 L649.9 181.2 L653.8 177.1 L657.6 183.4 L661.5 177.6 L665.4 186.7 L669.3 184.6 L673.2 191.8 L677.1 206.8 L681.0 211.2 L684.9 201.9 L688.7 201.5 L692.6 200.7 L696.5 201.8 L700.4 184.2 L704.3 186.2 L708.2 187.2 L712.1 193.7 L715.9 200.4 L719.8 195.6 L723.7 195.2 L727.6 189.9 L731.5 196.8 L735.4 210.7 L739.3 206.4 L743.2 202.5 L747.0 211.2 L750.9 186.9 L754.8 191.2 L758.7 183.2 L762.6 180.9 L766.5 184.0 L770.4 182.6 L774.3 188.2 L778.1 197.8 L782.0 204.0 L785.9 212.2 L789.8 216.0 L793.7 202.3 L797.6 198.2 L801.5 188.4 L805.4 183.7 L809.2 193.9 L813.1 201.3 L817.0 210.8 L820.9 208.8 L824.8 212.2 L828.7 208.6 L832.6 203.0 L836.5 197.2 L840.3 200.1 L844.2 201.8 L848.1 202.3 L852.0 202.6 L852.0 222 L599.3 222 Z" fill="url(#fade-dark)"/>
+  <path class="spark" style="animation-delay:0.95s" pathLength="1" d="M599.3 183.4 L603.2 172.0 L607.1 178.1 L611.0 184.0 L614.9 190.1 L618.8 191.6 L622.7 198.1 L626.5 195.0 L630.4 205.9 L634.3 205.0 L638.2 208.5 L642.1 212.6 L646.0 215.7 L649.9 181.2 L653.8 177.1 L657.6 183.4 L661.5 177.6 L665.4 186.7 L669.3 184.6 L673.2 191.8 L677.1 206.8 L681.0 211.2 L684.9 201.9 L688.7 201.5 L692.6 200.7 L696.5 201.8 L700.4 184.2 L704.3 186.2 L708.2 187.2 L712.1 193.7 L715.9 200.4 L719.8 195.6 L723.7 195.2 L727.6 189.9 L731.5 196.8 L735.4 210.7 L739.3 206.4 L743.2 202.5 L747.0 211.2 L750.9 186.9 L754.8 191.2 L758.7 183.2 L762.6 180.9 L766.5 184.0 L770.4 182.6 L774.3 188.2 L778.1 197.8 L782.0 204.0 L785.9 212.2 L789.8 216.0 L793.7 202.3 L797.6 198.2 L801.5 188.4 L805.4 183.7 L809.2 193.9 L813.1 201.3 L817.0 210.8 L820.9 208.8 L824.8 212.2 L828.7 208.6 L832.6 203.0 L836.5 197.2 L840.3 200.1 L844.2 201.8 L848.1 202.3 L852.0 202.6" fill="none" stroke="#f58aae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="tip" style="animation-delay:0.95s"><circle cx="852.0" cy="202.6" r="3.4" fill="#f58aae"/><circle cx="852.0" cy="202.6" r="3.4" fill="none" stroke="#f58aae"><animate attributeName="r" values="3.4;10" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="1.8s" repeatCount="indefinite"/></circle></g>
+  <text x="28" y="311" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9a8494">18,819 auction windows cleared on chain</text>
+  <text x="852" y="311" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#9a8494">Solana devnet · read from chain 22:17 UTC</text>
+</svg>
